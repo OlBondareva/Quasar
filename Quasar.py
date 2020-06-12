@@ -1,3 +1,4 @@
+#Based on the following description: https://masseffect.fandom.com/ru/wiki/Квазар
 
 print('''Компьютер выбрасывает случайную цифру, 
 игрок добавляет к ней на выбор число в диапазоне 4–7 либо в диапазоне 1–8. 
@@ -30,6 +31,6 @@ elif 0 <= Result <= 19:
     ComputerNumber=random.randint(1, 19)
     print(ComputerNumber)
 else:
-    print('Увы, это больше 20, Скайнет поработил человечество')
+    print('Увы, это больше 20, Скайнет поработил человечество и тебя тоже')
 
 
